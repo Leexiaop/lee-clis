@@ -1,0 +1,25 @@
+{
+	"name": "lee-cli",
+	"version": "1.0.0",
+	"description": "This is a cli for FE!",
+	"main": "./bin/cli.js",
+	"bin": {
+		"lee-cli": "./bin/cli.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Lee",
+	"license": "ISC",
+	"devDependencies": {
+		"commander": "^8.3.0",
+		"fs-extra": "^10.0.0"
+	},
+	"dependencies": {
+		"axios": "^0.24.0",
+		"chalk": "^4.1.1",
+		"inquirer": "^8.2.0",
+		"ora": "^5.4.0",
+		"shelljs": "^0.8.4"
+	}
+}
